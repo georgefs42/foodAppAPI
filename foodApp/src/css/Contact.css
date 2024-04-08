@@ -1,0 +1,26 @@
+.contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding-bottom: 4%;
+}
+
+.contact-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    font-size: 16px;
+}
+
+.contact-info p {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}
+

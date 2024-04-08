@@ -1,0 +1,45 @@
+/* DeleteRecipe.css */
+
+.delete-recipe-container {
+    padding-bottom: 25%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.delete-recipe-container h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.delete-recipe-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.delete-recipe-container label {
+    font-size: 18px;
+    color: #555;
+}
+
+.delete-recipe-container button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 10px; /* Optional: Add some spacing between the delete button and back button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+    background-color: #e74c3c;
+}
+
+.delete-recipe-container button:hover {
+    background-color: #d63a2e;
+}
+
+.delete-recipe-container .admin-button {
+    background-color: #3498db; /* Change color to suit your design */
+}
+
+.delete-recipe-container .admin-button:hover {
+    background-color: #2980b9; /* Change color to suit your design */
+}

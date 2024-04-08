@@ -1,0 +1,78 @@
+/* AddRecipe.css */
+
+.add-recipe-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-recipe-container h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .add-recipe-container label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .add-recipe-container input[type="text"],
+  .add-recipe-container input[type="number"],
+  .add-recipe-container select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .add-recipe-container input[type="text"]::placeholder,
+  .add-recipe-container input[type="number"]::placeholder,
+  .add-recipe-container select::placeholder {
+    color: #999;
+  }
+  
+  .add-recipe-container input[type="text"]:focus,
+  .add-recipe-container input[type="number"]:focus,
+  .add-recipe-container select:focus {
+    outline: none;
+    border-color: #5b9dd9;
+  }
+  
+  .add-recipe-container .common-button {
+    width: 100%;
+    padding: 12px 20px; /* Larger padding */
+    margin-top: 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #fff;
+  }
+  
+  .add-recipe-container .add-instruction-button,
+  .add-recipe-container .add-ingredient-button {
+    background-color: #5b9dd9;
+  }
+  
+  .add-recipe-container .add-instruction-button:hover,
+  .add-recipe-container .add-ingredient-button:hover {
+    background-color: #448baf;
+  }
+  
+  .add-recipe-container .add-recipe-button {
+    margin-top: 5%;
+    width: 100%; /* Full width */
+    padding: 12px 20px; /* Larger padding */
+    background-color: #e74c3c; /* Red color */
+  }
+  
+  .add-recipe-container .add-recipe-button:hover {
+    background-color: #d63a2e;
+  }
+  

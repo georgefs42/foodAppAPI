@@ -1,0 +1,89 @@
+nav {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e2942f;
+  color: #ffea00;
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease; /* Adding transition for smooth effect */
+}
+
+.nav-links li a:hover {
+  color: #ffea00; /* Change color on hover */
+}
+
+.cart-icon {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* Make cart icon circular */
+.cart-icon svg {
+  font-size: 24px;
+  margin-right: 5px;
+  border-radius: 50%;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.2); /* Optional: Add a background color for better visibility */
+}
+
+.cart-count {
+  background-color: red;
+  color: #fff;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
+
+/* Search bar styles */
+nav form {
+  display: flex;
+  align-items: center;
+}
+
+nav input[type="text"] {
+  padding: 5px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+nav button {
+  background-color: #fff;
+  color: #515b1a;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #ddd;
+}

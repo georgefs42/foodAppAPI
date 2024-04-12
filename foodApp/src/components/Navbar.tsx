@@ -17,10 +17,7 @@ const Navbar: React.FC<NavbarProps> = ({ cartItemsCount }) => {
       <li><Link to="/ContactPage">Contact</Link></li>
       <li><Link to="/AdminPage">Admin</Link></li>
       </ul>
-      <div className="cart-icon">
-        <FaShoppingCart />
-        <span className="cart-count">{cartItemsCount}</span>
-      </div>
+      
     </nav>
   );
 };

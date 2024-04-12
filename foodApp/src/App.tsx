@@ -10,6 +10,8 @@ import AdminPage from './pages/Admin';
 import AddRecipe from './components/RecipesAdding';
 import DeleteRecipe from './components/RecipesDeleting';
 import ModifyRecipe from './components/ModifyRecipe'
+import FoodDetailsPage from './components/FoodDetails';
+
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
           <Route path="/AdminPage" element={<AdminPage/>}/>
           <Route path="/DeleteRecipe" element={<DeleteRecipe/>}/>
           <Route path="/ModifyRecipe" element={<ModifyRecipe/>}/>
+          <Route path="/FoodDetails/:recipeId" element={<FoodDetailsPage/>}/>
         </Routes>
         <Footer />
       </div>
